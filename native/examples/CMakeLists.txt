@@ -8,7 +8,7 @@ project(SEALExamples VERSION 3.4.5 LANGUAGES CXX)
 # Executable will be in ../bin
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${SEALExamples_SOURCE_DIR}/../bin)
 
-add_executable(sealexamples examples.cpp)
+add_executable(sealexamples week1.cpp)
 target_sources(sealexamples
     PRIVATE
         1_bfv_basics.cpp
